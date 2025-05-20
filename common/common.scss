@@ -1,34 +1,23 @@
-.tab-tos-container {
-  .tab-tos-buttons {
-    display: flex;
-    border-bottom: 2px solid #ccc;
-    margin-bottom: 1em;
-  }
-
+.custom-tos-tabs {
   .tab-tos {
-    padding: 0.5em 1em;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-bottom: none;
-    margin-right: 0.5em;
-    background: #f7f7f7;
+    display: flex;
+    margin-bottom: 1em;
+    .tablink {
+      background: #eee;
+      border: 1px solid #ccc;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      margin-right: 0.5em;
+      &.active {
+        background: #ddd;
+        font-weight: bold;
+      }
+    }
   }
-
-  .tab-tos.active {
-    border: 1px solid #ccc;
-    border-bottom: none;
-    background: white;
-    font-weight: bold;
-  }
-
-  .tab-tos-content {
+  .tabcontent {
     display: none;
-    border: 1px solid #ccc;
-    padding: 1em;
-    background: white;
-  }
-
-  .tab-tos-content.active {
-    display: block;
+    &.active {
+      display: block;
+    }
   }
 }
