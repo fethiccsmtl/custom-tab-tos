@@ -1,0 +1,34 @@
+.tab-tos-container {
+  .tab-tos-buttons {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1em;
+  }
+
+  .tab-tos {
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-bottom: none;
+    margin-right: 0.5em;
+    background: #f7f7f7;
+  }
+
+  .tab-tos.active {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: white;
+    font-weight: bold;
+  }
+
+  .tab-tos-content {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 1em;
+    background: white;
+  }
+
+  .tab-tos-content.active {
+    display: block;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "custom-tab-tos",
+  "version": "0.1",
+  "title": "Custom Tabs for ToS",
+  "description": "Ajoute des onglets interactifs (tabs) personnalisés sur la page /tos.",
+  "authors": ["Fethi Bey Abi Ayad"],
+  "components": [],
+  "license": "MIT"
+}
