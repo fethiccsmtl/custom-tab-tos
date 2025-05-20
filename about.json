@@ -1,9 +1,9 @@
 {
   "name": "custom-tab-tos",
-  "version": "0.1",
+  "about_url": "https://github.com/fethiccsmtl/custom-tab-tos",
   "title": "Custom Tabs for ToS",
-  "description": "Ajoute des onglets interactifs (tabs) personnalisés sur la page /tos.",
+  "description": "Ajoute des onglets interactifs (tabs) personnalisés sur la page /tos de Discourse.",
   "authors": ["Fethi Bey Abi Ayad"],
-  "components": [],
+  "component": true,
   "license": "MIT"
 }
