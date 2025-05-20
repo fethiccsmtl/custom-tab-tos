@@ -1,19 +1,13 @@
-custom_tos_tab1_fr:
-  type: string
-  default: "<p>Conditions d’utilisation en français</p>"
-  client: true
+custom_tos_enabled:
+  default: true
+  type: bool
 
-custom_tos_tab2_fr:
+tos_content_fr:
+  default: "<p>Conditions d'utilisation en français ici</p>"
   type: string
-  default: "<p>Politique de confidentialité en français</p>"
-  client: true
+  textarea: true
 
-custom_tos_tab1_en:
+tos_content_en:
+  default: "<p>Terms of Service in English here</p>"
   type: string
-  default: "<p>Terms of Service in English</p>"
-  client: true
-
-custom_tos_tab2_en:
-  type: string
-  default: "<p>Privacy Policy in English</p>"
-  client: true
+  textarea: true

@@ -1,21 +1,24 @@
-.custom-tos-tabs {
-  .tab-tos {
+#tab-tos {
+  .tabs {
     display: flex;
+    gap: 1em;
     margin-bottom: 1em;
-    .tablink {
-      background: #eee;
-      border: 1px solid #ccc;
+
+    .tab-button {
       padding: 0.5em 1em;
       cursor: pointer;
-      margin-right: 0.5em;
+      background: #eee;
+      border: none;
+
       &.active {
-        background: #ddd;
-        font-weight: bold;
+        background: #ccc;
       }
     }
   }
-  .tabcontent {
+
+  .tab-content {
     display: none;
+
     &.active {
       display: block;
     }
